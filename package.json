@@ -1,0 +1,32 @@
+{
+  "name": "locklock-redis",
+  "version": "0.1.3",
+  "description": "a simple package for using global locking/unlocking in your code",
+  "main": "locklock.js",
+  "scripts": {
+    "test": "mocha --timeout 5000 --exit",
+    "lint": "eslint --ignore-path .eslintignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kareem-Emad/locklock"
+  },
+  "keywords": [
+    "locking",
+    "javascript",
+    "redis"
+  ],
+  "author": "kareem emad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kareem-Emad/locklock/issues"
+  },
+  "homepage": "https://github.com/Kareem-Emad/locklock#readme",
+  "dependencies": {
+    "eslint": "^5.0.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-plugin-mocha": "^7.0.1",
+    "mocha": "^5.2.0",
+    "redis": "^3.0.2"
+  }
+}
